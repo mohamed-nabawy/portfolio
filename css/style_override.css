@@ -1,0 +1,70 @@
+@media (max-width: 991.98px){
+    .ftco-partner .partner {
+        padding: 0 !important;
+    }
+}
+
+ /* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .col-xs-6{
+        width: 50%;
+    }
+ }
+/*
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops)
+// No */
+
+.block-23 ul li .icon{
+    padding:0 !important;
+}
+
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {  
+    margin-left: 0px;
+}
+
+[class^="flaticon-"]:before, [class*="flaticon-"]:before,
+[class^="flaticon-"]:after, [class*="flaticon-"]:after {  
+    font-size: 30px;
+}
+
+[class^="service flaticon-"]:before, [class*="service flaticon-"]:before,
+[class^="service flaticon-"]:after, [class*="service flaticon-"]:after {  
+    font-size: 60px;
+}
+
+
+[class^="icon flaticon-"]:before, [class*="icon flaticon-"]:before,
+[class^="icon flaticon-"]:after, [class*="icon flaticon-"]:after {  
+    font-size: initial;
+}
+
+.flaticon-comment:before{
+    font-size: 17px;
+}
+
+.txt-rotate >.wrap {
+    border-right: 0.08em solid #666
+}
+
+.ftco-animate{
+    min-height: 150px;
+}
+
+#section-counter{
+    margin-bottom: 20px;
+}
+
+.ftco-section{
+    padding: 3em 0;
+}

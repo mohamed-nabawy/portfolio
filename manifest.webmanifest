@@ -1,0 +1,15 @@
+{
+  "background_color": "white",
+  "description": "Personal profile for software apps development like web or desktop or mobile apps.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "icon/nabawy-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Nabawy",
+  "short_name": "Nabawy",
+  "start_url": "../index.html"
+}
