@@ -6,6 +6,7 @@ if ('serviceWorker' in navigator) {
 
 AOS.init({ duration: 800, easing: 'slide' });
 
+
 (function ($) {
     "use strict";
 
@@ -163,3 +164,23 @@ $(function () {
     })
     function percentageToDegrees(percentage) { return percentage / 100 * 360 }
 });
+
+
+//back to top button
+(function ($) {
+    var btn = $('#scrollToTop');
+  
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+  
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+    });
+  
+  })(jQuery);

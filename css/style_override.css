@@ -22,6 +22,14 @@
 
 // Extra large devices (large desktops)
 // No */
+#myCv{
+    font-size: 1.1rem;
+}
+#myCv:hover{
+    color: #3e64ff!important;
+    background-color: #fff !important;
+    border-color: transparent !important;
+}
 
 .block-23 ul li .icon{
     padding:0 !important;
@@ -67,4 +75,63 @@
 
 .ftco-section{
     padding: 3em 0;
+}
+
+#scrollToTop {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    transition: background-color .3s, opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    border:1px solid #3e64ff!important;
+    border-radius: 50%;
+    outline-color:transparent;/*to prevent outline on focus*/
+    color:var(--white);
+    background-color: #3e64ff;
+  }
+  
+  [dir="rtl"] #scrollToTop {
+    left: 30px;
+    right: unset;
+  }
+  /* #scrollToTop::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  } */
+  #scrollToTop:hover {
+    cursor: pointer;
+    background-color: var(--white-gray);
+  }
+  #scrollToTop:active {
+    background-color: var(--white-gray);
+  
+  }
+  #scrollToTop:focus {
+    outline: 0px;
+  
+  }
+  #scrollToTop.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
+#scrollToTop:hover .flaticon-arrow-pointing-north,
+#scrollToTop:active .flaticon-arrow-pointing-north,
+#scrollToTop:visited .flaticon-arrow-pointing-north{
+    color: #222;
+}
+#scrollToTop i{
+    right: 2px;
+    position: relative;
 }
