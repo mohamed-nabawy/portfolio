@@ -45,7 +45,6 @@ self.addEventListener('install', function(e) {
        '/portfolio/images/skills/laravel_logo.png',
        '/portfolio/images/projects/se3ro.png',
        '/portfolio/images/skills/photoshop.png',
-
        //font
        '/portfolio/fonts/flaticon/Flaticon.eot',
        '/portfolio/fonts/flaticon/Flaticon.svg',
