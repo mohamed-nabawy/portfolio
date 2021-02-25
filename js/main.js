@@ -1,7 +1,7 @@
 if ('serviceWorker' in navigator) {
   //scope must mathc the start url of the manifest
   navigator.serviceWorker
-  .register('./js/sw.js', { scope: '/portfolio/' })
+  .register('../js/sw.js', { scope: '/portfolio/' })
   .then(function () { console.log('Service Worker Registered'); });
 }
 
